@@ -1,0 +1,7 @@
+{
+  "name": "libext",
+  "version": "1.0.0",
+  "description": "Tomeio add-on for 1lib",
+  "main": "api/index.js",
+  "dependencies": {}
+}
