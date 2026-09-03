@@ -34,6 +34,8 @@ export default function handler(req, res) {
     }
   };
 
-  // Serve manifest on root, /api, or /manifest.json paths
+  // Serve manifest regardless of whether Tomeio looks for /api, /tomeio-extension.json, or root
+  return res.status(200).json(manifest);
+}  // Serve manifest on root, /api, or /manifest.json paths
   return res.status(200).json(manifest);
 }
